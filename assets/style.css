@@ -1,0 +1,35 @@
+.row_header {
+    font-style: italic;
+    font-weight: normal;
+    text-align: left;
+}
+
+table, td, th, tr {
+    border: solid black 1px;
+    margin: 0;
+}
+
+.table-body {
+    background-color: #aaaaaa
+}
+
+.table-body:nth-of-type(odd) {
+    background-color: #dddddd;
+}
+
+.outer-content {
+    margin-top: 20px;
+    background-color: #FF7777;
+    height: 200px;
+    width: 75%;
+}
+
+.inner-content {
+    background-color: #5555FF;
+    position: relative;
+    top: 12.5%;
+    margin: 0 auto;
+    margin-top: auto;
+    height: 75%;
+    width: 75%;
+}
